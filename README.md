@@ -1,32 +1,29 @@
 # react-native-minimizer
+Minimize React Native app, works on Android And iOS.
+## Installation
 
-## Getting started
-
-`$ npm install react-native-minimizer --save`
-
-### Mostly automatic installation
-
-Add this to your `android/build.gradle` file, under `allprojects.repositories`:
-
-```
-allprojects {
-  repositories {
-    // ...
-    maven {
-      url("${project(':react-native-minimizer').projectDir}/libs")
-    }
-  }
-}
+```sh
+npm install react-native-minimizer
 ```
 
 ## Usage
-```javascript
-import Minimizer from 'react-native-minimizer';
 
-// exits the aplication
-Minimizer.exit();
-// goes back to previously openned app if there was such
-Minimizer.goBack();
-// just minimizes the app
-Minimizer.minimize();
+```js
+import { multiply } from "react-native-minimizer";
+
+// ...
+
+const result = await multiply(3, 7);
 ```
+
+## Contributing
+
+See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
+## License
+
+MIT
+
+---
+
+Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)

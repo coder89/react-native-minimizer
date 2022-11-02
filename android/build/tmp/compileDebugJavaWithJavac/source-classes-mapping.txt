@@ -1,6 +1,0 @@
-com/oila/minimizer/BuildConfig.java
- com.oila.minimizer.BuildConfig
-com/oila/minimizer/MinimizerPackage.java
- com.oila.minimizer.MinimizerPackage
-com/oila/minimizer/MinimizerModule.java
- com.oila.minimizer.MinimizerModule
