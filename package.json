@@ -46,7 +46,7 @@
   },
   "homepage": "https://github.com/oilastudio/react-native-minimizer#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://pkgs.dev.azure.com/spas/Vieware/_packaging/Custom/npm/registry/"
   },
   "devDependencies": {
     "@arkweid/lefthook": "^0.7.7",
